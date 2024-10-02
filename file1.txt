@@ -2,3 +2,4 @@ some changes
 nothing
 nothing2
 change2
+changes for feature (from main, testing checkout with uncommited data)
