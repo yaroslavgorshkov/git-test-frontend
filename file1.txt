@@ -3,3 +3,4 @@ nothing
 nothing2
 change2
 text from VSCode
+BAD CODE (NEED TO BE FIXED)
