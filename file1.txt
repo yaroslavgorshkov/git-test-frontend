@@ -7,3 +7,4 @@ BAD CODE (NEED TO BE FIXED)
 fixing the bug code in 3 steps...
 1 step
 2 step
+3 step
