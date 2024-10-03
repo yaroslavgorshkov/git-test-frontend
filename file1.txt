@@ -4,3 +4,5 @@ nothing2
 change2
 text from VSCode
 BAD CODE (NEED TO BE FIXED)
+fixing the bug code in 3 steps...
+1 step
