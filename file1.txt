@@ -2,9 +2,4 @@ some changes
 nothing
 nothing2
 change2
-text from VSCode
-BAD CODE (NEED TO BE FIXED)
-fixing the bug code in 3 steps...
-1 step
-2 step
-3 step
+changes for feature (from main, testing checkout with uncommited data)
