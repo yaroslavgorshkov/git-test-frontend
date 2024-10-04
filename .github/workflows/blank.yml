@@ -19,12 +19,3 @@ jobs:
       - name: Create a new file
         run: |
           echo "This is a build file" > build.txt
-
-      # Шаг для коммита и пуша нового файла обратно в репозиторий
-      - name: Commit and push file
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add build.txt
-          git commit -m "Add build.txt"
-          git push
