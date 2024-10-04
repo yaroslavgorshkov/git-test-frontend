@@ -1,4 +1,4 @@
-name: CI
+name: Windows CI
 
 on:
   push:
@@ -9,13 +9,13 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest # Используем Windows Runner
 
     steps:
       # Шаг для клонирования репозитория
       - uses: actions/checkout@v4
 
-      # Шаг для создания файла
-      - name: Create a new file
-        run: |
-          echo "This is a build file" > build.txt
+      # Шаг для создания файла на диске D:
+      - name: create a new file on D drive
+        run: echo "This is a build file" > D:\build.txt
+        shell: cmd
